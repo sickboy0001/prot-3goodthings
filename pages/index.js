@@ -64,7 +64,7 @@ export default function Home({ posts }) {
                 day: "2-digit",
                 year: "numeric",
               }
-            );
+            ); 
             return (
               <li key={post.id} className={styles.post}>
                 <h3 className={styles.postTitle}>
